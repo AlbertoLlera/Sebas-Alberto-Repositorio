@@ -1,19 +1,9 @@
-/**
- *
- * @param turno recibe el turno.
- * @returns {boolean} devuelve, según el resto de la división, si es turno o no de las blancas.
- * Este comentario lo ha hecho Alberto en el ejercicio de Sebas.
- * Estamos haciendo pruebas.
- */
+// Función auxiliar
 function esTurnoDeBlancas(turno) {
     return turno % 2 !== 0; // impar = blancas
 }
 
-/**
- * Función void, no recibe ni devuelve ningún parámetro.
- * Determina de quien es el turno, el número del mismo y la cantidad de movimientos permitidos en la partida.
- * Este comentario lo ha hecho Alberto.
- */
+// Función principal
 function iniciarPartida() {
     let turnoActual = 1;
     const turnosMaximos = 10;
@@ -40,6 +30,11 @@ function iniciarPartida() {
         turnoActual++;
     }
 
+    // Mostrar resumen
+    console.log(`Movimientos válidos realizados: ${movimientosValidos}`);
+}
+
+// Ejecutar la partida
     console.log(`Movimientos válidos realizados: ${movimientosValidos}`);
 }
 
