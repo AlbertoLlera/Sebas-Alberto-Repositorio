@@ -2,7 +2,7 @@
  *
  * @param turno recibe el turno.
  * @returns {boolean} devuelve, según el resto de la división, si es turno o no de las blancas.
- * Este comentario lo ha hecho Alberto.
+ * Este comentario lo ha hecho Alberto en el ejercicio de Sebas.
  */
 function esTurnoDeBlancas(turno) {
     return turno % 2 !== 0; // impar = blancas
