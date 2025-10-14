@@ -17,15 +17,12 @@ function iniciarPartida() {
             console.log(`Turno ${turnoActual} → Mueven las ♟ negras`);
         }
 
-        // Cada 3 turnos
         if (turnoActual % 3 === 0) {
-            console.log(" Recordatorio: revisa el reloj de juego.");
+            console.log("Recordatorio: revisa el reloj de juego.");
         }
 
-        // Contador de movimientos válidos (solo para turnos pares)
         movimientosValidos += (turnoActual % 2 === 0) ? 1 : 0;
 
-        // Al llegar al final
         if (turnoActual === turnosMaximos) {
             console.log("🏁 Se alcanzó el número máximo de turnos. Partida finalizada.");
         }
@@ -38,4 +35,7 @@ function iniciarPartida() {
 }
 
 // Ejecutar la partida
+    console.log(`Movimientos válidos realizados: ${movimientosValidos}`);
+}
+
 iniciarPartida();
