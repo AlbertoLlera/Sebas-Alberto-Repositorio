@@ -1,5 +1,4 @@
 //Pruebas cambio
-// esta perfecto 
 function iniciarpartida() {
 
     let turnoActual = 1;
