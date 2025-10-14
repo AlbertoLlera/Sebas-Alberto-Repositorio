@@ -1,5 +1,5 @@
 # Nombre del Proyecto
-
+Repositorio colaborativo desarrollo entorno cliente
 ## Descripción
 Proyecto colaborativo desarrollado para la asignatura de **Cliente** en colaboración entre Alberto Llera y Sebastián Becerra.
 Este repositorio contiene ejercicios realizados en conjunto con el objetivo de trabajar con las herramientas de Git y Github.
