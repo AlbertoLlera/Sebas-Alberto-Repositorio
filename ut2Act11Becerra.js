@@ -2,6 +2,7 @@
  *
  * @param turno recibe el turno.
  * @returns {boolean} devuelve, según el resto de la división, si es turno o no de las blancas.
+ * Este comentario lo ha hecho Alberto.
  */
 function esTurnoDeBlancas(turno) {
     return turno % 2 !== 0; // impar = blancas
@@ -10,6 +11,7 @@ function esTurnoDeBlancas(turno) {
 /**
  * Función void, no recibe ni devuelve ningún parámetro.
  * Determina de quien es el turno, el número del mismo y la cantidad de movimientos permitidos en la partida.
+ * Este comentario lo ha hecho Alberto.
  */
 function iniciarPartida() {
     let turnoActual = 1;
